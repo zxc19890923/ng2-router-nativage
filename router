@@ -1,0 +1,8 @@
+1. 首先引入 import {Router} from "@angular/router"
+2. constructor(public router: Router) {}
+3. 操作，函数中成功语句跳转
+login() {
+  if(username=="xx" && password=="xx") {
+    this.router.navigateByUrl("home");
+  }
+}
